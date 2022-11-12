@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://codelsng.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Nov 2022 22:46:15 +0800</lastBuildDate><atom:link href="https://codelsng.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim筆記</title>
+      <link>https://codelsng.github.io/post/vim%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Sat, 12 Nov 2022 22:46:15 +0800</pubDate>
+      
+      <guid>https://codelsng.github.io/post/vim%E7%AD%86%E8%A8%98/</guid>
+      <description>vim學習筆記 &amp;lt;&amp;ndash;!more&amp;ndash;&amp;gt;
+替換命令 批量註釋
+#使用下面命令在指定的行首添加註釋： &amp;lt;起始行號&amp;gt;, &amp;lt;結束行號&amp;gt;s/^/&amp;lt;註釋符號&amp;gt;/g #使用下面命令取消註釋： &amp;lt;起始行號&amp;gt;, &amp;lt;結束行號&amp;gt;s/^&amp;lt;註釋符號&amp;gt;//g 例如：
+#在10 ～ 20行之間添加//註釋 :10, 20s#^#//#g #取消那些//註釋 :10, 20s#^//##g #在10 ～ 20行之間添加#註釋 :10, 20s/^/#/g #刪除那些#註釋 :10, 20s/#//g </description>
+    </item>
+    
+  </channel>
+</rss>
